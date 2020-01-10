@@ -23,9 +23,9 @@ MySQL Workbench.
 "**TIME**" = The music's duration. [**ONLY** Numbers Allowed] *(Separated by " : ")*
 
 # Create
-**Usage**: ```"IP"/create.php/Title="TITLE"&Genre="GENRE"&Artist="ARTIST"&Date="DATE"&Time="TIME"```
+**Usage**: ```"IP"/create.php/Titres="TITLE"&Genres="GENRE"&Artistes="ARTIST"&Dates="DATE"&Temps="TIME"```
 
-**Example**: ```192.168.33.60/create.php/Title=Happy&Genre=Pop&Artist=Bruno%20Mars&Date=02/2019&Time=3:50```
+**Example**: ```192.168.33.60/create.php/Titres=Happy&Genres=Pop&Artistes=Bruno%20Mars&Dates=02/2019&Temps=3:50```
 
 **Expected Result**: A song with the title "Happy", the genre "Pop", the artist "Bruno Mars", the date "02/2019" and the time "3:50" should be created.
 
@@ -37,9 +37,9 @@ MySQL Workbench.
 **Expected Result**: Information about the song with the id 3 should appear.
 
 # Update
-**Usage**: ```"IP"/update.php/id="ID"&Title="TITLE"&Genre="GENRE"&Artist="ARTIST"&Date="DATE"&Time="TIME"```
+**Usage**: ```"IP"/update.php/id="ID"&Titres="TITLE"&Genres="GENRE"&Artistes="ARTIST"&Dates="DATE"&Temps="TIME"```
 
-**Example**: ```192.168.33.60/update.php/id=3&Title=Happy&Genre=Pop&Artist=Bruno%20Mars&Date=02/2019&Time=3:50```
+**Example**: ```192.168.33.60/update.php/id=3&Titres=Happy&Genres=Pop&Artistes=Bruno%20Mars&Dates=02/2019&Temps=3:50```
 
 **Expected Result**: Information about the song with the id 3 should change to the one input.
 
@@ -51,8 +51,8 @@ MySQL Workbench.
 **Expected Result**: The music with the id 3 should be deleted.
 
 # Filter
-**Usage**: ```"IP"/filter.php/Title="TITLE" OR &Genre="GENRE" OR &Artist="ARTIST" OR &Date="DATE" OR &Time="TIME"```
+**Usage**: ```"IP"/filter.php/Titres="TITLE" OR &Genres="GENRE" OR &Artistes="ARTIST" OR &Dates="DATE" OR &Temps="TIME"```
 
-**Example**: ```192.168.33.60/filter.php/Genre=Pop```
+**Example**: ```192.168.33.60/filter.php/Genres=Pop```
 
 **Expected Result**: The musics with the genre "Pop" should appear.
